@@ -1,0 +1,75 @@
+body{
+    background-color: #87cdcd;
+}
+.head{
+    display: flex;
+    align-items: center;
+    padding-left: 33%;
+    color: red;
+    font-family: "Arvo", cursive;
+    text-shadow: 5px 0 rgb(245, 239, 239); 
+    font-size: 3rem;
+}
+i{
+    font-size: 4rem;
+    color: red;
+}
+h1{
+    padding: 10px;
+}
+.drums{
+    display: flex;
+    padding-top: 5rem;
+    width: 100%;
+}
+button{
+    width: 14.2857%;
+    height: 8rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 4rem;
+    font-weight: 900;
+    text-shadow: 3px 0 rgb(55, 54, 58);
+    font-family: revert;
+    color: red;
+    box-shadow: silver;
+    border-radius: 10px;
+    border: 5px solid rgb(158, 153, 153);
+}
+.tom-1{
+    background-image: url("images/tom1.png");
+    background-size: cover;
+}
+.tom-2{
+    background-image: url("images/tom2.png");
+    background-size: cover;
+}
+.tom-3{
+    background-image: url("images/tom3.png");
+    background-size: cover;
+}
+.tom-4{
+    background-image: url("images/tom4.png");
+    background-size: cover;
+}
+.snare{
+    background-image: url("images/snare.png");
+    background-size: cover;
+}
+.kick-bass{
+    background-image: url("images/kick.png");
+    background-size: cover;
+}
+.crash{
+    background-image: url("images/crash.png");
+    background-size: cover;
+}
+.pressed{
+    color: white;
+}
+.footer{
+    padding-top: 8rem;
+    padding-left: 39%;
+    font-size: 1.5rem;
+    font-family: "Arvo", cursive;
+}
